@@ -58,7 +58,7 @@ sections:
           description: 10%
           icon: camera-retro
           icon_pack: fas
-  - block: Education
+  - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'Education'
