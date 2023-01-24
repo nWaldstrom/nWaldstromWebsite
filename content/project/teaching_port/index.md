@@ -20,4 +20,4 @@ external_link: ''
 ### Supervisor for BA thesis
 * I have supervised multiple students in areas within business cycle macro   
 
-  
+---
