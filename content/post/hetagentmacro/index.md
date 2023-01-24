@@ -1,5 +1,5 @@
 ---
-title: Guest lecturer in Advanced Macroeconomics: Heterogenous Agent Models
+title: 'Guest lecturer in Advanced Macroeconomics: Heterogenous Agent Models'
 subtitle: Fall 2022
 
 # Summary for listings and search engines
@@ -58,7 +58,6 @@ categories:
 - 💡 [Request a **feature** or report a **bug** for _Wowchemy_](https://github.com/wowchemy/wowchemy-hugo-themes/issues)
 - ⬆️ **Updating Wowchemy?** View the [Update Tutorial](https://wowchemy.com/docs/hugo-tutorials/update/) and [Release Notes](https://wowchemy.com/updates/)
 
-### Guest lecturer in 
-blabla 
+### Guest lecturer in <a href="https://kurser.ku.dk/course/a%C3%98kk08426u/2022-2023" style="color: #8C001A; text-decoration: underline;">Advanced Macroeconomics: Heterogenous Agent Models</a>
 
 
