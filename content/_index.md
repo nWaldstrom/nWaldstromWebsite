@@ -42,22 +42,32 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  # - block: features
+  - block: markdown
+    content:
+      title: Research
+      id: Research1
+      subtitle: ''
+      text: |-
+          <a href='files/research/IHANK_paper_October2022.pdf' style="font-size: 110%;  font-weight: bold;">The Transmission of Foreign Demand Shocks (2022)</a>  <br>
+          with <a class="coauthors" href="https://sites.google.com/view/jeppe-druedahl/">Jeppe Druedahl</a>, <a class="coauthors" href="https://sites.google.com/site/sorenhoveravn">Søren Hove Ravn</a>, <a class="coauthors" href="https://sites.google.com/site/lsunderplassmann/">Laura Sunder-Plassmann</a> and <a class="coauthors" href="https://sundram.dk/">Jacob Marott Sundram</a>. Working paper. <br>
+           <a style="font-size: 110%;  font-weight: bold;">Welfare Costs of Inflation (2022)</a>  <br>
+           Working paper. <br>
+           <a style="font-size: 110%;  font-weight: bold;">Firm heterogeneity (2022)</a>  <br>
+            with Christian Kastrup. Working paper. <br>
+    design:
+      columns: '2'
+  # - block: collection
+  #   id: Research
+  #   # Title: Research
   #   content:
-  #     title: Skills
-  #     items:
-  #       - name: R
-  #         description: 90%
-  #         icon: r-project
-  #         icon_pack: fab
-  #       - name: Statistics
-  #         description: 100%
-  #         icon: chart-line
-  #         icon_pack: fas
-  #       - name: Photography
-  #         description: 10%
-  #         icon: camera-retro
-  #         icon_pack: fas
+  #     title: Research
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: False
+  #   design:
+  #     columns: '2'
+  #     view: citation
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
@@ -74,8 +84,8 @@ sections:
       items:
         - certificate_url: ''
           title: 'Ph.D in Economics'
-          date_end: '2024-01-01'
-          date_start: '2021-07-01'
+          date_end: '2024-09-01'
+          date_start: '2021-09-01'
           description: ''
           organization: 'University of Copenhagen' 
           organization_url: https://www.economics.ku.dk/
@@ -89,39 +99,31 @@ sections:
           url: ''
         - certificate_url: ''
           title: 'B.Sc. in Economics'
-          date_start: '2018-01-01'
+          date_start: '2018-05-01'
           description: ''
           organization: 'University of Copenhagen'
           organization_url: https://www.economics.ku.dk/
           url: ''
     design:
       columns: '2'
-  - block: collection
-    id: teaching
+  - block: markdown
     content:
-      title: Teaching 
+      title: Teaching
+      id: teaching
       subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 3
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
+      text: |-
+          #### Guest lecturer in <a href="https://kurser.ku.dk/course/a%C3%98kk08426u/2022-2023" style="color: #FFA500; text-decoration: underline;">Advanced Macroeconomics: Heterogenous Agent Models</a>
+          * Graduate level course on macroeconomic dynamics with heterogenous agents.
+
+          #### Teaching assistent in <a href="https://kurser.ku.dk/course/a%C3%98kk08402u/" style="color: #FFA500; text-decoration: underline;">Advanced Economics of the Environment and Climate Change 2021</a>
+          * Graduate level course on environmental-, natural ressource- and climate change economics
+
+          #### Teaching assistent in <a href="https://kurser.ku.dk/course/a%c3%98kb08002u/2021-2022" style="color: #FFA500; text-decoration: underline;">Principle of Economics B 2018</a>
+          * Macro 101 
+
+          #### Supervisor for BA thesis
+          * I have supervised multiple students in areas within business cycle macro   
     design:
-      # Choose a layout view
-      view: compact
       columns: '2'
   # - block: portfolio
   #   id: teaching2

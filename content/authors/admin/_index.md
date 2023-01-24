@@ -24,8 +24,6 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include heterogeous agent macroeconomics, business cycle fluctations and international macro.  
 
-#I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" style="color: #8C001A; font-weight: bold; text-decoration: underline;"> Department of Economics,</a> at the University of Copenhagen. My research interests involve business cycle macroeconomics with a focus on the aggregate implications of micro level heterogeneity. My supervisors are <a href="https://sites.google.com/site/sorenhoveravn" style="color: #8C001A; font-weight: bold; text-decoration: underline;">Søren Hove Ravn</a> and <a href="https://sites.google.com/view/jeppe-druedahl/" style="color: #8C001A; font-weight: bold; text-decoration: underline;">Jeppe Druedahl</a>.
-
 
 
 # Interests to show in About widget
@@ -54,7 +52,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'mailto:Nicolai.w@Econ.ku.dk'
   - icon: twitter
     icon_pack: fab
     link: https://twitter.com/NWaldstrom
@@ -82,8 +80,16 @@ email: 'Nicolai.w@Econ.ku.dk'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
+
+
 ---
 
+<!-- I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" style="color: #8C001A; font-weight: bold; text-decoration: underline;"> Department of Economics,</a> at the University of Copenhagen. My research interests involve business cycle macroeconomics with a focus on the aggregate implications of micro level heterogeneity. My supervisors are <a href="https://sites.google.com/site/sorenhoveravn" style="color: #8C001A; font-weight: bold; text-decoration: underline;">Søren Hove Ravn</a> and <a href="https://sites.google.com/view/jeppe-druedahl/" style="color: #8C001A; font-weight: bold; text-decoration: underline;">Jeppe Druedahl</a>.
+{style="text-align: justify;"} -->
 
-I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" style="color: #8C001A; font-weight: bold; text-decoration: underline;"> Department of Economics,</a> at the University of Copenhagen. My research interests involve business cycle macroeconomics with a focus on the aggregate implications of micro level heterogeneity. My supervisors are <a href="https://sites.google.com/site/sorenhoveravn" style="color: #8C001A; font-weight: bold; text-decoration: underline;">Søren Hove Ravn</a> and <a href="https://sites.google.com/view/jeppe-druedahl/" style="color: #8C001A; font-weight: bold; text-decoration: underline;">Jeppe Druedahl</a>.
+
+I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" style="font-weight: bold; text-decoration: underline;"> Department of Economics,</a> at the University of Copenhagen. My research interests involve business cycle macroeconomics with a focus on the aggregate implications of micro level heterogeneity. My supervisors are <a href="https://sites.google.com/site/sorenhoveravn" style=" font-weight: bold; text-decoration: underline;">Søren Hove Ravn</a> and <a href="https://sites.google.com/view/jeppe-druedahl/" style="font-weight: bold; text-decoration: underline;">Jeppe Druedahl</a>.
 {style="text-align: justify;"}
+
+
+
