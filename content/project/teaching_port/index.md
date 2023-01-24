@@ -7,6 +7,7 @@ date: '2023-01-27T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
+---
 
 ### Guest lecturer in <a href="https://kurser.ku.dk/course/a%C3%98kk08426u/2022-2023" style="color: #8C001A; text-decoration: underline;">Advanced Macroeconomics: Heterogenous Agent Models</a>
 * Graduate level course on macroeconomic dynamics with heterogenous agents.
@@ -19,5 +20,3 @@ external_link: ''
 
 ### Supervisor for BA thesis
 * I have supervised multiple students in areas within business cycle macro   
-
----
