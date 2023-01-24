@@ -74,21 +74,22 @@ sections:
       items:
         - certificate_url: ''
           title: 'Ph.D in Economics'
-          date_start: '(Expected) 2024'
+          date_end: '2024-01-01'
+          date_start: '2021-07-01'
           description: ''
           organization: 'University of Copenhagen' 
           organization_url: https://www.economics.ku.dk/
           url: ''
         - certificate_url: ''
           title: 'M.Sc. in Economics'
-          date_start: '2021'
+          date_start: '2021-01-01'
           description: ''
           organization: 'University of Copenhagen' 
           organization_url: https://www.economics.ku.dk/
           url: ''
         - certificate_url: ''
           title: 'B.Sc. in Economics'
-          date_start: '2018'
+          date_start: '2018-01-01'
           description: ''
           organization: 'University of Copenhagen'
           organization_url: https://www.economics.ku.dk/
