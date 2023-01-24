@@ -72,21 +72,25 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: 'Ph.D in Economics'
+        - certificate_url: ''
+          title: 'Ph.D in Economics'
           date_start: '(Expected) 2024'
           description: ''
-          organization: University of Copenhagen 
-          organization_url: https://www.economics.ku.dk/
-        - title: 'M.Sc. in Economics'
-          date_start: '2021'
-          description: ''
-          organization: University of Copenhagen 
+          organization: 'University of Copenhagen' 
           organization_url: https://www.economics.ku.dk/
           url: ''
-        - title: 'B.Sc. in Economics'
+        - certificate_url: ''
+          title: 'M.Sc. in Economics'
+          date_start: '2021'
+          description: ''
+          organization: 'University of Copenhagen' 
+          organization_url: https://www.economics.ku.dk/
+          url: ''
+        - certificate_url: ''
+          title: 'B.Sc. in Economics'
           date_start: '2018'
           description: ''
-          organization: University of Copenhagen 
+          organization: 'University of Copenhagen'
           organization_url: https://www.economics.ku.dk/
           url: ''
     design:
