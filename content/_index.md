@@ -23,6 +23,7 @@ sections:
           <br>
           <a style="font-size: 110%;  font-weight: bold;">Supply shock Transmission Through Production Networks (2023)</a>  <br>
           with Christian B. Kastrup. Draft coming soon. <br>
+          <br>
           <a style="font-size: 110%;  font-weight: bold;">Inflation, Real Income, and Aggregate Demand (2023)</a>  <br>
           Work in progress. <br>
     design:
