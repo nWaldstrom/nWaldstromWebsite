@@ -19,7 +19,7 @@ sections:
       subtitle: ''
       text: |-
           <a href='files/research/IHANK_paper_October2022.pdf' style="font-size: 110%;  font-weight: bold;">The Transmission of Foreign Demand Shocks (2022)</a>  <br>
-          with <a class="coauthors" href="https://sites.google.com/view/jeppe-druedahl/">Jeppe Druedahl</a>, <a class="coauthors" href="https://sites.google.com/site/sorenhoveravn">Søren Hove Ravn</a>, <a class="coauthors" href="https://sites.google.com/site/lsunderplassmann/">Laura Sunder-Plassmann</a> and <a class="coauthors" href="https://sundram.dk/">Jacob Marott Sundram</a>. Working paper. <br>
+          with <a class="coauthors" href="https://sites.google.com/view/jeppe-druedahl/">Jeppe Druedahl</a>, <a class="coauthors" href="https://sites.google.com/site/sorenhoveravn">Søren Hove Ravn</a>, <a class="coauthors" href="https://sites.google.com/site/lsunderplassmann/">Laura Sunder-Plassmann</a> and <a class="coauthors" href="https://sundram.dk/">Jacob Marott Sundram</a>. Working paper.<br>
           {{< spoiler text="Abstract" >}}
           Introducing heterogeneous households into a New Keynesian model of a
           small open economy enables the model to fit a set of stylized empirical facts
