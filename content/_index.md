@@ -37,11 +37,20 @@ sections:
           fixed exchange rate or in a monetary union.
           {{< /spoiler >}}
           <br>
-          <a style="font-size: 110%;  font-weight: bold;">Firm Heterogeneity and the Transmission of Foreign Supply Shocks (2023)</a>  <br>
+          <a href='files/research/Het_Firm_2024.pdf' style="font-size: 110%;  font-weight: bold;">From Micro to Macro: The Influence of Firm Heterogeneity on Foreign Shock Transmission (2024)</a>  <br>
           with <a class="coauthors" href="https://sites.google.com/view/christianbkastrup/">Christian B. Kastrup</a>. Work in progress. <br>
           {{< spoiler text="Abstract" >}}
-          In this paper, we investigate the role of within-sector heterogeneity in the transmission of foreign supply shocks. 
-          We start by establishing causal evidence of how a 10% increase in import prices leads to a 7% decline in real output and a 2.5% increase in prices. We then develop a partial equilibrium model that captures the heterogeneity within sectors, with firms varying across five dimensions: productivity, materials share, import share, export share, and IO-linkages. Our findings reveal that within-sector heterogeneity amplifies the response to foreign shocks by 32% in partial equilibrium. This amplification occurs primarily because larger firms also import the most. However, when considering the broader implications in general equilibrium, a counter-intuitive result emerges. Within-sector heterogeneity dampens the impact of foreign shocks by 11% in this setting. This surprising effect is attributed to the fact that larger firms, while import-intensive, are less intertwined with the domestic economy. In summary, our study underscores the complex interplay of within-sector heterogeneity in the transmission of foreign supply shocks, demonstrating its amplifying effect in partial equilibrium and its contrasting dampening effect in general equilibrium.
+          We investigate the role of firm heterogeneity and adjustment costs in the trans-
+          mission of foreign supply shocks. Our starting point comes from a theoretical
+          insight: If larger firms rely more on easily adjustable inputs, such as materials,
+          then the aggregate output response to changes in the price of these inputs gets
+          amplified relative to a representative firm economy. We next provide empirical ev-
+          idence that larger firms are indeed more materials-intensive and more responsive
+          to an exogenous foreign shock. We show that a New-Keynesian general equilib-
+          rium model with multiple sectors and firm heterogeneity is consistent with these
+          facts. We find that firm heterogeneity, in line with the data, amplifies the response
+          of output and prices to a foreign supply shock, but dampens the labor and GDP
+          responses.
           {{< /spoiler >}}
           <br>
           <a style="font-size: 110%;  font-weight: bold;">Inflation, Real Income, and Aggregate Demand (2023)</a>  <br>

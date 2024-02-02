@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD fellow in Macroeconomics 
+role: PhD Fellow
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,7 +22,7 @@ organizations:
     url: https://www.economics.ku.dk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include heterogeous agent macroeconomics, business cycle fluctations and international macro.  
+bio: My general research areas of interest include heterogeous agent macroeconomics, business cycle fluctations and international macro.  
 
 
 
