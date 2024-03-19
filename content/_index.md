@@ -55,6 +55,8 @@ sections:
           <br>
           <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090">SSRN Link.</a>
           <br>
+          url_pdf : "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090" 
+          <br>
           <a style="font-size: 110%;  font-weight: bold;">Inflation, Real Income, and Aggregate Demand (2023)</a>  <br>
           Work in progress. <br>
           {{< spoiler text="Abstract" >}}
