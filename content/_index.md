@@ -51,8 +51,9 @@ sections:
           facts. We find that firm heterogeneity, in line with the data, amplifies the response
           of output and prices to a foreign supply shock, but dampens the labor and GDP
           responses.
-          {{< /spoiler >}}
-          href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090">SSRN Link.</a>
+          {{< /spoiler >}} 
+          <br>
+          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090">SSRN Link.</a>
           <br>
           <a style="font-size: 110%;  font-weight: bold;">Inflation, Real Income, and Aggregate Demand (2023)</a>  <br>
           Work in progress. <br>
