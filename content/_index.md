@@ -12,12 +12,27 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
+
+  # - block: collection
+  #   id: projects
+  #   content:
+  #     title: Working Papers
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: False 
+  #   design:
+  #     columns: '2'
+  #     view: citation
+
   - block: markdown
     content:
       title: Research
       id: Research1
       subtitle: ''
       text: |-
+
+
           <a href='files/research/IHANK_paper_October2022.pdf' style="font-size: 110%;  font-weight: bold;">The Transmission of Foreign Demand Shocks (2022)</a>  <br>
           with <a class="coauthors" href="https://sites.google.com/view/jeppe-druedahl/">Jeppe Druedahl</a>, <a class="coauthors" href="https://sites.google.com/site/sorenhoveravn">Søren Hove Ravn</a>, <a class="coauthors" href="https://sites.google.com/site/lsunderplassmann/">Laura Sunder-Plassmann</a> and <a class="coauthors" href="https://sundram.dk/">Jacob Marott Sundram</a>. Working paper.<br>
           {{< spoiler text="Abstract" >}}
@@ -52,10 +67,6 @@ sections:
           of output and prices to a foreign supply shock, but dampens the labor and GDP
           responses.
           {{< /spoiler >}} 
-          <br>
-          <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090">SSRN Link.</a>
-          <br>
-          url_pdf : "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090" 
           <br>
           <a style="font-size: 110%;  font-weight: bold;">Inflation, Real Income, and Aggregate Demand (2023)</a>  <br>
           Work in progress. <br>
