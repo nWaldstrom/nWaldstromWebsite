@@ -1,26 +1,28 @@
 ---
-title: 'From Micro to Macro: The Influence of Firm Heterogeneity on Foreign Shock Transmission'
+title: 'The Transmission of Foreign Demand Shocks'
+# subtitle : 'test'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - test
-  - Nicolai Waldstrøm 
-  - admin2 
-  - <a href="https://sites.google.com/view/christianbkastrup/"> test< /a>
+  - Jeppe Druedahl
+  - Søren Hove Ravn
+  - Laura Sunder-Plassmann 
+  - Jacob Marott Sundram 
+  - admin
 
 
 # Author notes (optional)
-author_notes:
-  - <a href="https://sites.google.com/view/christianbkastrup/">website1</a>
-  # - 'Equal contribution'
+# author_notes:
+#   - <a href="%website1%">%website1%</a>
+#   - 'Equal contribution'
 
-date: '2024-09-01T00:00:00Z'
+date: '2022-09-01T00:00:00Z'
 doi: ''
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2024-01-01T00:00:00Z'
+publishDate: '2022-01-01T00:00:00Z'
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -32,17 +34,20 @@ publication_types: ['3']
 publication: Working paper
 publication_short: Working paper
 
-abstract: 'We investigate the role of firm heterogeneity and adjustment costs in the trans-
-          mission of foreign supply shocks. Our starting point comes from a theoretical
-          insight: If larger firms rely more on easily adjustable inputs, such as materials,
-          then the aggregate output response to changes in the price of these inputs gets
-          amplified relative to a representative firm economy. We next provide empirical ev-
-          idence that larger firms are indeed more materials-intensive and more responsive
-          to an exogenous foreign shock. We show that a New-Keynesian general equilib-
-          rium model with multiple sectors and firm heterogeneity is consistent with these
-          facts. We find that firm heterogeneity, in line with the data, amplifies the response
-          of output and prices to a foreign supply shock, but dampens the labor and GDP
-          responses.'
+abstract: 'Introducing heterogeneous households into a New Keynesian model of a
+          small open economy enables the model to fit a set of stylized empirical facts
+          about the transmission of foreign demand shocks. In the absence of a strong
+          labor income effect on consumption, the model counterfactually implies that
+          domestic consumption decreases as the central bank raises the interest rate to
+          curb domestic inflation. With plausible marginal propensities to consume, the
+          model instead produces the observed increase in domestic consumption of both
+          tradeable and non-tradeable goods. This implies that foreign demand shocks are
+          more important for international business-cycle comovement than predicted by
+          existing models. Our findings also have implications for stabilization policies:
+          While monetary policy is well-suited to counteract foreign demand shocks, tra-
+          ditional fiscal policies are inadequate, as they do not provide sufficient stimulus
+          to the tradeable sector. This poses a particular challenge for countries with a
+          fixed exchange rate or in a monetary union.'
 
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
@@ -57,9 +62,8 @@ featured: true
 # - name: Custom Link
 #   url: http://example.org
 
-url_pdf: 'files/research/Het_Firm_2024.pdf'
-url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
-# url_ssrn : 'test'
+url_pdf: 'files/research/IHANK_paper_October2022.pdf'
+url_code: 'https://github.com/nWaldstrom/MultiSecSOEHANK'
 #url_dataset: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 # url_poster: ''
 # url_project: ''
@@ -88,14 +92,18 @@ url_code: 'https://github.com/wowchemy/wowchemy-hugo-themes'
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
 # slides: example
+
+# TEXT DOWN HERE SHOWS UP ON PUBLICAITON PAGE
 ---
 
-{{% callout note %}}
+
+
+<!-- {{% callout note %}}
 Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
 {{% /callout %}}
 
 {{% callout note %}}
 Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
+{{% /callout %}} -->
 
-Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/).
+<!-- Supplementary notes can be added here, including [code, math, and images](https://wowchemy.com/docs/writing-markdown-latex/). -->
