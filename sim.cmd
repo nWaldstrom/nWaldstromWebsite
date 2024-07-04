@@ -1,1 +1,1 @@
-hugo server --watch
+hugo server --watch --disableFastRender  

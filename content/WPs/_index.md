@@ -1,16 +1,6 @@
 ---
-title: Publications
-cms_exclude: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 4
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
+type: "working-papers"
+title: "Working Papers"
+# date: 2014-07-01T14:00:00-06:00
+# lastmod: 2022-02-28T15:37:00-06:00
 ---
