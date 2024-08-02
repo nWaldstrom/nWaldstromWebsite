@@ -25,7 +25,14 @@ sections:
           <div style="margin-top: -23px;">
           </div>
 
-          ## From Micro to Macro: The Influence of Firm Heterogeneity on Foreign Shock Transmission [*Submitted*]
+          ## Fiscal Multipliers in Small Open Economies With Heterogeneous Households [July 2024]
+          with Jeppe Druedahl, Søren Hove Ravn, Laura Sunder-Plassmann and Jacob Marott Sundram. 
+          <p style="margin-bottom: 1px; font-size : 0.8em; font-style: italic;"> 
+          Abstract: We study fiscal multipliers in a small open economy Heterogeneous Agent New-Keynesian (SOE-HANK) model. We provide a set of equivalence results under which the fiscal multiplier in our SOE-HANK model is the same---at any horizon---as in a corresponding representative-agent (RANK) model. Under more general assumptions, the fiscal multipliers in the two models are not equivalent, but remain relatively similar. Yet, we show that the underlying channels driving the fiscal multipliers differ substantially. In particular, consumption increases while net exports tend to decline in the HANK model, whereas the opposite is true in the RANK model.
+          </p> 
+          <a href="files/research/Fiscal_IHANK_20240708.pdf" style="color: #D43817;">[PDF]</a> <a href="files/research/Fiscal_IHANK_IMFER.pdf" style="color: #D43817;">[Slides]</a>   </a>  
+
+          ## From Micro to Macro: The Influence of Firm Heterogeneity on Foreign Shock Transmission [May 2024] [*Submitted*]
           with Christian B. Kastrup.
           <p style="margin-bottom: 1px; font-size : 0.8em; font-style: italic;"> 
           Abstract: We investigate the role of firm heterogeneity and adjustment costs in the transmission
@@ -42,7 +49,7 @@ sections:
           </p> 
           <a href="files/research/Het_Firm_2024.pdf" style="color: #D43817;">[PDF]</a>    <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090" style="color: #D43817;">[SSRN]</a>  
 
-          ## The Transmission of Foreign Demand Shocks 
+          ## The Transmission of Foreign Demand Shocks [October 2022]
           with Jeppe Druedahl, Søren Hove Ravn, Laura Sunder-Plassmann and Jacob Marott Sundram.
           <p style="margin-bottom: 1px; font-size : 0.8em; font-style: italic;"> 
           Abstract: Introducing heterogeneous households into a New Keynesian model of a
@@ -83,13 +90,6 @@ sections:
           <div style="margin-top: -23px;">
           </div>
 
-          ## Fiscal Multipliers in Small Open Economies With Heterogeneous Households
-          with Jeppe Druedahl, Søren Hove Ravn, Laura Sunder-Plassmann and Jacob Marott Sundram.
-          <p style="margin-bottom: 1px; font-size : 0.8em; font-style: italic;"> 
-          Abstract: We study fiscal multipliers in a small open economy Heterogeneous Agent New-Keynesian (SOE-HANK) model. We provide a set of equivalence results under which the fiscal multiplier in our SOE-HANK model is the same---at any horizon---as in a corresponding representative-agent (RANK) model. Under more general assumptions, the fiscal multipliers in the two models are not equivalent, but remain relatively similar. Yet, we show that the underlying channels driving the fiscal multipliers differ substantially. In particular, consumption increases while net exports tend to decline in the HANK model, whereas the opposite is true in the RANK model.
-          </p> 
-
-
           ## Supply shocks and household heterogeneity in Open Economies: Implications for Optimal Monetary Policy
 
     design:
@@ -113,7 +113,7 @@ sections:
           #### TA in <a href="https://kurser.ku.dk/course/a%c3%98kb08002u/2021-2022" style="color: #D43817; text-decoration: underline;">Principle of Economics B 2018</a>
           * Macro 101 
 
-          #### Supervisor for BA thesis
+          #### Supervisor for BA/MA theses
           * I have supervised multiple students in areas within business cycle macro   
     design:
       columns: '2'
