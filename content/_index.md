@@ -25,6 +25,25 @@ sections:
           <div style="margin-top: -23px;">
           </div>
 
+          ## Supply Shocks and Household Heterogeneity in Open Economies: Implications for Optimal Monetary Policy [September 2024]
+          <p style="margin-bottom: 1px; font-size : 0.8em; font-style: italic;"> 
+          Abstract: I study the transmission of cost-push shocks in a small open economy using a Heterogeneous 
+          Agent New Keynesian (HANK) model. Compared to the canonical
+          Representative Agent New Keynesian (RANK) model, I show that a HANK model
+          with empirically realistic marginal propensities to consume out of income (MPCs)
+          and sticky wages introduces an additional transmission channel: An increase in
+          inflation following a cost-push shock suppresses real wages, which suppress ag-
+          gregate demand when the MPC out of labor income is greater than the MPC out
+          of profits, highlighting the distributional role of inflation. I then compute the op-
+          timal monetary policy response to an increase in import prices. I find that a more
+          hawkish response is optimal in HANK compared to RANK. This is driven by low
+          short-run trade elasticities combined with positive exchange rate pass-through to
+          import prices, implying that an exchange rate appreciation can stabilize inflation
+          and real wages without significantly lowering domestic employment.
+          </p> 
+          <a href="files/research/HANK_supply.pdf" style="color: #D43817;">[PDF]</a> 
+
+
           ## Fiscal Multipliers in Small Open Economies With Heterogeneous Households [July 2024]
           with Jeppe Druedahl, Søren Hove Ravn, Laura Sunder-Plassmann and Jacob Marott Sundram. 
           <p style="margin-bottom: 1px; font-size : 0.8em; font-style: italic;"> 
@@ -32,7 +51,7 @@ sections:
           </p> 
           <a href="files/research/Fiscal_IHANK_20240708.pdf" style="color: #D43817;">[PDF]</a> <a href="files/research/Fiscal_IHANK_IMFER.pdf" style="color: #D43817;">[Slides]</a>   </a>  
 
-          ## From Micro to Macro: The Influence of Firm Heterogeneity on Foreign Shock Transmission [May 2024] [*Submitted*]
+          ## From Micro to Macro: The Influence of Firm Heterogeneity on Foreign Shock Transmission [May 2024]
           with Christian B. Kastrup.
           <p style="margin-bottom: 1px; font-size : 0.8em; font-style: italic;"> 
           Abstract: We investigate the role of firm heterogeneity and adjustment costs in the transmission
@@ -77,23 +96,23 @@ sections:
 
   ############################
 
-  - block: collection 
-    id: work-in-progress
-    content:
-      title: Work in Progress 
-      subtitle: ''
-      filters:
-        folders:
-          - wip
+  # - block: collection 
+  #   id: work-in-progress
+  #   content:
+  #     title: Work in Progress 
+  #     subtitle: ''
+  #     filters:
+  #       folders:
+  #         - wip
 
-      text: |-
-          <div style="margin-top: -23px;">
-          </div>
+  #     text: |-
+  #         <div style="margin-top: -23px;">
+  #         </div>
 
-          ## Supply shocks and household heterogeneity in Open Economies: Implications for Optimal Monetary Policy
+  #         ## Supply shocks and household heterogeneity in Open Economies: Implications for Optimal Monetary Policy
 
-    design:
-      columns: '2'
+  #   design:
+  #     columns: '2'
 
 
   ############################
