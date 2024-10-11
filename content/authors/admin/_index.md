@@ -25,7 +25,7 @@ organizations:
     # url: https://www.carminegalassoresearch.com/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Researching population displacement in disasters
+bio: Conducting research on het agent macroeconomics 
 
 # # Interests to show in About widget
 # interests:
@@ -108,17 +108,20 @@ I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" s
 <div class="container">
   <div class="row justify-content-between">
     <div class="col">
-      <h3>Experience</h3>
+      <h3>Interests</h3>
         <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Ph.D Fellow, 2021-2024</li>
-        <li><span class="portrait-title"><h3>University of Copenhagen</h3></span></li>
         <!-- <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>TEMP</li> -->
         <!-- <li><span class="portrait-title"><h3>TEMP</h3></li> -->
+        <li><span class="fa-li"><i class="fas fa-play"></i></span>Macroeconomics</li>
+        <li><span class="fa-li"><i class="fas fa-play"></i></span>Heterogeneous Agent Models</li>
+        <li><span class="fa-li"><i class="fas fa-play"></i></span>International Macro</li>
         </ul>
     </div>
     <div class="col">
       <h3>Education</h3>
         <ul class="fa-ul">
+        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Ph.D, 2021-2024</li>
+        <li><span class="portrait-title"><h3>University of Copenhagen</h3></span></li>
         <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MSc Economics, 2021</li>
         <li><span class="portrait-title"><h3>University of Copenhagen</h3></li>
         <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BSc Economics, 2018</li>
@@ -127,6 +130,12 @@ I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" s
     </div>
   </div>
 </div>
+
+
+<!--         <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MSc Economics, 2021</li>
+        <li><span class="portrait-title"><h3>University of Copenhagen</h3></li>
+        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BSc Economics, 2018</li>
+        <li><span class="portrait-title"><h3>University of Copenhagen</h3></li>
 
 <!-- <div class="container">
   <div class="row justify-content-between">

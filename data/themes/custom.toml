@@ -1,5 +1,17 @@
 # Theme metadata
-name = "Custom"
+name = "custom"
+
+# potential colors
+# #f5f5f5
+# #f1f1f1 # grey 
+# #f0ede1 # too aggresive color, orange color ish
+
+# orange 
+# #eab569
+
+# white 
+# #fefefe
+
 
 [light]
   # Primary
@@ -17,7 +29,8 @@ name = "Custom"
 
   # Home sections
   home_section_odd = "#fefefe"
-  home_section_even = "#ECF0F1"
+  home_section_even = "#fefefe"
+
 
 [dark]
   # Primary
