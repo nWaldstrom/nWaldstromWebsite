@@ -69,6 +69,30 @@ sections:
             }
           </style>   
 
+
+          <div class="custom-text">
+          Supply Shocks and Household Heterogeneity in Open Economies: Implications <br> for Optimal Monetary Policy [November 2024]
+          </div>
+          <div class="custom-abstr">
+          Abstract: I study the transmission of cost-push shocks in a small open economy using a Heterogeneous 
+          Agent New Keynesian (HANK) model. Compared to the canonical
+          Representative Agent New Keynesian (RANK) model, I show that a HANK model
+          with empirically realistic marginal propensities to consume out of income (MPCs)
+          and sticky wages introduces an additional transmission channel: An increase in
+          inflation following a cost-push shock suppresses real wages, which suppress aggregate 
+          demand when the MPC out of labor income is greater than the MPC out
+          of profits, highlighting the distributional role of inflation. I then compute the op-
+          timal monetary policy response to an increase in import prices. I find that a more
+          hawkish response is optimal in HANK compared to RANK. This is driven by low
+          short-run trade elasticities combined with positive exchange rate pass-through to
+          import prices, implying that an exchange rate appreciation can stabilize inflation
+          and real wages without significantly lowering domestic employment.
+          </div>
+          <a href="files/research/HANK_supply.pdf" style="color: #c70a30; font-weight: 600;">[PDF]</a> 
+
+          <div style="height: 25px;"></div>
+
+
           <div class="custom-text">
           Fiscal Multipliers in Small Open Economies With Heterogeneous Households [August 2024]
           </div>
@@ -115,28 +139,6 @@ sections:
           fixed exchange rate or in a monetary union.
           </div>
           <a href="files/research/Foreign_Demand_Shocks_September2024.pdf" style="color: #c70a30; font-weight: 600;">[PDF]</a> <a href="files/research/Foreign_Demand_Shocks_October2022.pdf" style="color: #c70a30; font-weight: 600;">[2022 WP]</a>  <a href="https://github.com/nWaldstrom/MultiSecSOEHANK" style="color: #c70a30; font-weight: 600;">[Code]</a>  
-
-          <div style="height: 25px;"></div>
-
-          <div class="custom-text">
-          Supply Shocks and Household Heterogeneity in Open Economies: Implications for Optimal Monetary Policy [September 2024]
-          </div>
-          <div class="custom-abstr">
-          Abstract: I study the transmission of cost-push shocks in a small open economy using a Heterogeneous 
-          Agent New Keynesian (HANK) model. Compared to the canonical
-          Representative Agent New Keynesian (RANK) model, I show that a HANK model
-          with empirically realistic marginal propensities to consume out of income (MPCs)
-          and sticky wages introduces an additional transmission channel: An increase in
-          inflation following a cost-push shock suppresses real wages, which suppress aggregate 
-          demand when the MPC out of labor income is greater than the MPC out
-          of profits, highlighting the distributional role of inflation. I then compute the op-
-          timal monetary policy response to an increase in import prices. I find that a more
-          hawkish response is optimal in HANK compared to RANK. This is driven by low
-          short-run trade elasticities combined with positive exchange rate pass-through to
-          import prices, implying that an exchange rate appreciation can stabilize inflation
-          and real wages without significantly lowering domestic employment.
-          </div>
-          <a href="files/research/HANK_supply.pdf" style="color: #c70a30; font-weight: 600;">[PDF]</a> 
 
           <div style="height: 25px;"></div>
 
