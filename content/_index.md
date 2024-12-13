@@ -31,7 +31,8 @@ sections:
           <style>
             .custom-text {
               margin-bottom: 1px; 
-              font-size : 1.2em;
+              margin-left: 0.1px; 
+              font-size : 1.01em;
               font-weight: bold;
             }
           </style>
