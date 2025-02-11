@@ -19,8 +19,6 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    #description: 'Hi, I’m Nicolai! I’m currently researching household displacement due to disasters at University College London (UCL). My research is supervised by Prof. Carmine Galasso (UCL) and Prof. Jack Baker (Stanford University).' # TODO
-    # twitter: 'nicopurr'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,11 +33,11 @@ marketing:
 header:
   navbar:
     enable: true
-    align: l
-    show_logo: true
+    align: c
+    show_logo: false
     show_language: false
     show_day_night: false # day/night button 
-    show_search: true
+    show_search: false
     highlight_active_link: true
 
 # Site footer
@@ -56,9 +54,10 @@ footer:
 # Localization
 
 locale:
-  date_format: 'Jan 2, 2006'
+  date_format: 'Mar 2, 2002'
   time_format: '3:04 PM'
   address_format: en-us
+  
 
 # Site features
 features:

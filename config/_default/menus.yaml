@@ -8,14 +8,16 @@ main:
     url: '#about'
     weight: 10
   - name: Working Papers
-    url: '#working-papers'
+    url: "/working-papers/"
     weight: 20
-  - name: Work in progress
-    url: '#work-in-progress'
-    weight: 30
   - name: Teaching
-    url: '#teaching'
+    url: '/teaching/'
+    weight: 30
+  - name: Codes
+    url: '/codes/'
     weight: 40
+
+
   # - name: Other publications
   #   url: '#other-publications'
   #   weight: 50

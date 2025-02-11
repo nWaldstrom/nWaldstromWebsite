@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nicolai Waldstrøm</title>
+    <link>http://localhost:1313/</link>
+      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <description>Nicolai Waldstrøm</description>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
+    <image>
+      <url>http://localhost:1313/media/icon_hu_f8f2e30fba327ae8.png</url>
+      <title>Nicolai Waldstrøm</title>
+      <link>http://localhost:1313/</link>
+    </image>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/_index_backup/</link>
+      <pubDate>Mon, 12 Mar 1001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/_index_backup/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

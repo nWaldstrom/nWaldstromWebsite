@@ -17,12 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: PhD Fellow
+role: Visiting Postdoc 
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Copenhagen 
-    # url: https://www.carminegalassoresearch.com/
+  - name: University of Zurich 
 
 # Short bio (displayed in user profile at end of posts)
 bio: Conducting research on het agent macroeconomics 
@@ -74,7 +73,8 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:nicolai.w@econ.ku.dk'
+    # link: 'mailto:nicolai.w@econ.ku.dk'
+    link: 'mailto:N.Waldstrom@gmail.com'
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/nicolai-waldstr%C3%B8m-7419a2178
@@ -95,23 +95,25 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/resume.pdf
+    link: uploads/CV.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-<!-- I'm currently researching household displacement due to disasters at University College London (UCL). My background is in structural engineering and I have over nine years of experience quantifying disaster risks. At the Global Earthquake Model (GEM) Foundation, I conducted earthquake risk assessment at the national and regional scales. At Arup, I was focused on the campus and building-specific scales, with an emphasis on modeling recovery after disasters. -->
+My name is Nicolai Waldstrøm. I am currently a visiting post-doc at the  
+<a href="https://www.econ.uzh.ch/en.html" style="text-decoration: none; color: var(--pcolor);">University of Zurich</a>.  
+I received my PhD from the University of Copenhagen in 2024. Prior to my doctoral studies, I completed a BSc and MSc degree at the same university and worked at the Danish Research Institute for Economic Analysis and Modelling and the Ministry of Finance.  
+My research interests lie in the field of Macroeconomics, with a particular focus on heterogeneous agent models and international macro.  
 
-I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" style="font-weight: bold;"> Department of Economics,</a> at the University of Copenhagen. My research interests involve business cycle macroeconomics with a focus on the aggregate implications of micro level heterogeneity. My supervisors are <a href="https://sites.google.com/site/sorenhoveravn" style=" font-weight: bold;">Søren Hove Ravn</a> and <a href="https://sites.google.com/view/jeppe-druedahl/" style="font-weight: bold; ">Jeppe Druedahl</a>.
+You may find my CV <a href="uploads/CV.pdf" style="text-decoration: none; color: var(--pcolor);" >here</a>.
 
-<div class="container">
+
+<!-- <div class="container">
   <div class="row justify-content-between">
     <div class="col">
       <h3>Interests</h3>
         <ul class="fa-ul">
-        <!-- <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>TEMP</li> -->
-        <!-- <li><span class="portrait-title"><h3>TEMP</h3></li> -->
         <li><span class="fa-li"><i class="fas fa-play"></i></span>Macroeconomics</li>
         <li><span class="fa-li"><i class="fas fa-play"></i></span>Heterogeneous Agent Models</li>
         <li><span class="fa-li"><i class="fas fa-play"></i></span>International Macro</li>
@@ -129,7 +131,7 @@ I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" s
         </ul>
     </div>
   </div>
-</div>
+</div> -->
 
 
 <!--         <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MSc Economics, 2021</li>
@@ -159,5 +161,6 @@ I am a Ph.D student affiliated with the <a href="https://www.economics.ku.dk/" s
     </div>
   </div>
 </div> -->
+
 
 {style="text-align: justify;"}

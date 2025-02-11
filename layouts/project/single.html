@@ -8,8 +8,7 @@
     {{ if (eq .Params.toc true) }}
     <nav style="position: sticky; position: -webkit-sticky; top: 1rem;">
       <aside style="float: right; padding: 1rem; margin-left: 1.5rem;" id="sidebar-nav">
-        <p
-          style="text-transform: uppercase; font-size: 0.75em; margin-left: 1rem; margin-bottom: 0.75rem; line-height: 2;">
+        <p style="text-transform: uppercase; font-size: 0.75em; margin-left: 1rem; margin-bottom: 0.75rem; line-height: 2;">
           On this page</p>
         {{ .TableOfContents }}
         <nav id="TableOfContents" class="nav flex-column" style="padding: 0rem; margin-top: -1rem">
@@ -21,7 +20,6 @@
     </nav>
     {{ end}}
 
-
     <div class="article-container">
 
       <div class="article-style">
@@ -30,7 +28,6 @@
 
       {{ partial "page_footer" . }}
 
-    </div>
     </div>
 
     <div class="article-container" style="padding-right: 5rem;">
@@ -44,21 +41,16 @@
         {{ if ge $count 1 }}
         <h2>{{ (i18n "posts") }}</h2>
         {{ range $index, $item := $items }}
-        {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.post_view | default
-        "compact") "index" $index) }}
+        {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.post_view | default "compact") "index" $index) }}
         {{end}}
         {{ end }}
 
-        {{ $items := where (where site.RegularPages "Type" "publication") ".Params.projects" "intersect" (slice
-        $project)
-        }}
+        {{ $items := where (where site.RegularPages "Type" "publication") ".Params.projects" "intersect" (slice $project) }}
         {{ $pubs_len := len $items }}
         {{ if ge $pubs_len 1 }}
         <h2 id="publications">{{ (i18n "publications") }}</h2>
         {{ range $index, $item := $items }}
-        {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.publication_view |
-        default
-        "compact") "index" $index) }}
+        {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.publication_view | default "compact") "index" $index) }}
         {{end}}
         {{ end }}
 
@@ -67,8 +59,7 @@
         {{ if ge $talks_len 1 }}
         <h2>{{ (i18n "talks") }}</h2>
         {{ range $index, $item := $items }}
-        {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.talk_view | default
-        "compact") "index" $index) }}
+        {{ partial "functions/render_view" (dict "page" $ "item" . "view" (site.Params.projects.talk_view | default "compact") "index" $index) }}
         {{end}}
         {{ end }}
       </div>

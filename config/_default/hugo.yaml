@@ -36,7 +36,7 @@ cascade:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+paginate.pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>
@@ -77,3 +77,6 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+params:
+  analytics:
+    google_analytics: ""

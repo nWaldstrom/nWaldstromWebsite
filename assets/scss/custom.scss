@@ -30,7 +30,7 @@ p {
 .article-style a {
     color: #5a464c;
     font-weight: normal;
-    border-bottom: 1px solid #5a464c;
+    
 }
 
 a.footnote-ref {
@@ -92,6 +92,7 @@ figure figcaption {
 }
 
 .navbar {
+    font-size: 19px;  /* Adjust size as needed */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
     border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
@@ -270,6 +271,8 @@ body.dark,
     border: 0px;
 }
 
+
+
 .dark .chroma {
     color: #f8f8f2;
     background-color: #2b2a2a;
@@ -332,4 +335,147 @@ body.dark,
     aside#sidebar-nav {
         display: none !important;
     }
+}
+
+#about {  /* Spacing around about me section */
+  padding-top: 320px;
+  padding-bottom: 310px;
+}
+
+
+
+  /* General Styles */
+  .publication-entry {
+      display: flex;
+      margin-bottom: 15px;
+  }
+
+  /* Date Column */
+  .publication-date {
+      width: 150px;
+      text-align: left;
+      padding-right: 20px;
+      color: #003366; /* Or your preferred color */
+      font-weight: bold;
+      font-size: 14px; /* Consistent font size */
+      flex-shrink: 0;
+  }
+
+  /* Information Column */
+  .publication-info {
+      flex-grow: 1;
+      text-align: left;
+  }
+
+  .publication-title {
+      font-size: 1.01em; /* Consistent with your .custom-text */
+      font-weight: 600;
+      margin-bottom: 1px;
+      margin-top: -4px;
+      margin-left: 0.1px;
+  }
+
+  .publication-details {
+      font-size: 14px; /* Using pixels for better consistency */
+      color: #224771; /* Lighter Blue Color, or adapt */
+  }
+
+  /* Abstract Styles */
+  .custom-abstr {
+      margin-bottom: 0;
+      margin-top: -1px;
+      font-size: 13px;
+      font-weight: 500;
+      color: grey;
+  }
+
+  /* Co-author link */
+  .custom-auth {
+      margin-bottom: 1px;
+      font-size: 0.9em;
+  }
+
+  /* Status & Date */
+  .custom-status {
+      font-size: 14px;
+      color: var(--tcolor);
+      font-weight: 600;
+      font-style: italic;
+  }
+
+  .dateformat {
+      font-size: 14px;
+      color: black;
+      font-weight: 400;
+  }
+
+  /* Button */
+  button {
+      color: var(--scolor);
+      margin-left: -6px; /* Adjust this value to control space */
+      font-size: 14px;
+      padding: 0px 10px;
+      border: none;
+      background-color: transparent;
+      cursor: pointer;
+      transition: color 0.3s;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      line-height: 1;
+  }
+
+  button:hover {
+      color: #333;
+  }
+
+  button i {
+      margin-right: 8px;
+      font-size: 22px;
+      vertical-align: middle;
+      line-height: 0;
+      margin-top: 0px;
+  }
+
+  /* PDF Links */
+  a.pdflinktemp {
+      font-size: 14px;
+      color: var(--scolor); /* consistent color */
+      font-weight: 400; /* Consistent font weight */
+      margin-bottom: -1px;
+      text-decoration: none;
+  }
+
+  a.pdflinktemp:hover {
+      text-decoration: underline;
+      text-underline-offset: 2px;
+  }
+
+  /* Vertical Line */
+  .vline {
+      font-weight: 400;
+      font-size: 14px;
+      color: rgba(0, 0, 0, 0.2); /* More Visible Separator */
+      margin: 0 5px; /* More appropriate spacing */
+  }
+
+  .ctextsize {
+    font-size: 14px;
+  }
+
+
+  /* Spacing */
+  .spacer {
+      height: 25px;
+  }
+
+    .custom-list li {
+    margin-bottom: 0.5em; /* Adjust this value to control spacing */
+    }
+
+
+:root {
+  --pcolor: #4682B4;
+  --scolor: #4682B4;
+  --tcolor: #FF8C00;
 }

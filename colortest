@@ -1,0 +1,20 @@
+
+:root {
+  --pcolor: #c70a30; # nice red color 
+  --scolor: #398fc4;
+  --tcolor: #0088cc;
+}
+
+#b33631 - deeper red 
+#bf7275 - JAMILOV
+#F3C437 # orange
+
+
+#feca56
+#FF8C00
+
+:root {
+  --pcolor: #2b6777;
+  --scolor: #c8d8e4;
+  --tcolor: #52ab98;
+}
