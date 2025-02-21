@@ -10012,9 +10012,9 @@ body.dark,
     display: none !important; } }
 
 #about {
-  /* Spacing around about me section */
-  padding-top: 320px;
-  padding-bottom: 310px; }
+  padding-top: 14vh;
+  /* 15% of viewport height */
+  padding-bottom: 16vh; }
 
 /* General Styles */
 .publication-entry {
@@ -10120,18 +10120,18 @@ a.pdflinktemp:hover {
 /* Vertical Line */
 .vline {
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.8rem;
   color: rgba(0, 0, 0, 0.2);
   /* More Visible Separator */
-  margin: 0 5px;
+  margin: 0 0.2rem;
   /* More appropriate spacing */ }
 
 .ctextsize {
-  font-size: 14px; }
+  font-size: 1rem; }
 
 /* Spacing */
 .spacer {
-  height: 25px; }
+  height: 1.5rem; }
 
 .custom-list li {
   margin-bottom: 0.5em;
@@ -10141,3 +10141,17 @@ a.pdflinktemp:hover {
   --pcolor: #4682B4;
   --scolor: #4682B4;
   --tcolor: #FF8C00; }
+
+.avatar {
+  width: 10rem;
+  /* Adjust to desired size */
+  height: auto;
+  /* Maintain aspect ratio */
+  object-fit: cover;
+  /* Ensures the image fills the container */
+  object-position: top;
+  /* Crops from the top-left corner */ }
+
+.avatar-square {
+  width: 14rem;
+  height: 19rem; }

@@ -100,7 +100,7 @@ design:
             and <span class="JacobMarottSundram"></span>
         </div>
         <div>
-            <span class="custom-status"> Submitted </span>
+            <span class="custom-status"> R&R at Journal of the European Economic Association.</span>
             <br>
             <a href="files/research/Foreign_Demand_Shocks_September2024.pdf" class="pdflinktemp">Working Paper</a>
             <span class="vline">|</span>

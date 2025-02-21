@@ -10,7 +10,7 @@ sections:
   - block: about.biography
     id: about
     content:
-      title: <span style="color:var(--pcolor);">About Me</span>
+      title: <span style="color:var(--pcolor); font-size:2rem;">About Me</span>
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
