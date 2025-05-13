@@ -17,6 +17,9 @@
     <loc>http://localhost:1313/publication_types/</loc>
     <changefreq>weekly</changefreq>
   </url><url>
+    <loc>http://localhost:1313/publications/</loc>
+    <changefreq>weekly</changefreq>
+  </url><url>
     <loc>http://localhost:1313/tags/</loc>
     <changefreq>weekly</changefreq>
   </url><url>

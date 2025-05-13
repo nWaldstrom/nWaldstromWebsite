@@ -108,6 +108,7 @@ image:
 
 My name is Nicolai Waldstrøm. I am currently a visiting postdoc at the  
 <a href="https://www.econ.uzh.ch/en.html" style="text-decoration: none; color: var(--pcolor);">University of Zurich</a>.  
+
 I received my PhD from the University of Copenhagen in 2024. Prior to my doctoral studies, I completed a BSc and MSc degree at the same university and worked at the Danish Research Institute for Economic Analysis and Modelling and the Ministry of Finance.  
 My research interests lie in the field of Macroeconomics, with a particular focus on heterogeneous agent models and international macro.  
 

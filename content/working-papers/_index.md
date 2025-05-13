@@ -48,45 +48,6 @@ design:
 <div class="spacer"></div>
 
 <div class="publication-entry">
-    <div class="publication-date">August 2024</div>
-    <div class="publication-info">
-        <div class="publication-title">
-            Fiscal Multipliers in Small Open Economies With Heterogeneous Households
-        </div>
-        <div class="publication-details">
-            With
-            <span class="JeppeDruedahl"></span>,
-            <span class="SørenHoveRavn"></span>,
-            <span class="LauraSunderPlassmann"></span>,
-            and <span class="JacobMarottSundram"></span>
-        </div>
-        <div class="publication-actions">
-            <span class="custom-status"> R&R at IMF Economic Review </span>
-            <br>
-            <a href="files/research/Fiscal_IHANK_August2024.pdf" class="pdflinktemp">Working Paper</a>
-            <span class="vline">|</span>
-            <a href="files/research/Fiscal_IHANK_IMFER.pdf" class="pdflinktemp">Slides</a>
-            <span class="vline">|</span>
-            <button
-                onclick="let text = document.getElementById('text2'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
-                <i class="fas fa-caret-right"></i>Abstract
-            </button>
-        </div>
-        <div id="text2" style="display:none;" class="custom-abstr">
-            Abstract: We study fiscal multipliers in a small open economy Heterogeneous Agent New-Keynesian
-            (SOE-HANK) model. We provide a set of equivalence results under which the fiscal multiplier in our
-            SOE-HANK model is the same---at any horizon---as in a corresponding representative-agent (RANK) model.
-            Under more general assumptions, the fiscal multipliers in the two models are not equivalent, but remain
-            relatively similar. Yet, we show that the underlying channels driving the fiscal multipliers differ
-            substantially. In particular, consumption increases while net exports tend to decline in the HANK model,
-            whereas the opposite is true in the RANK model.
-        </div>
-    </div>
-</div>
-
-<div class="spacer"></div>
-
-<div class="publication-entry">
     <div class="publication-date">September 2024</div>
     <div class="publication-info">
         <div class="publication-title">
@@ -100,7 +61,7 @@ design:
             and <span class="JacobMarottSundram"></span>
         </div>
         <div>
-            <span class="custom-status"> R&R at Journal of the European Economic Association.</span>
+            <span class="custom-status"> R&R at Journal of the European Economic Association</span>
             <br>
             <a href="files/research/Foreign_Demand_Shocks_September2024.pdf" class="pdflinktemp">Working Paper</a>
             <span class="vline">|</span>
@@ -141,7 +102,7 @@ design:
             From Micro to Macro: The Influence of Firm Heterogeneity on Foreign Shock Transmission
         </div>
         <div class="publication-details">
-            With <span class="ChristianKastrup"></span>.
+            With <span class="ChristianKastrup"></span>
         </div>
         <div>
             <a href="files/research/Het_Firm_2024.pdf" class="pdflinktemp">Working Paper</a>
@@ -169,19 +130,4 @@ design:
     </div>
 </div>
 
-<!-- CO-AUTHOR LINKS -->
-<script>
-  const links = {
-    JeppeDruedahl: '<a href="https://sites.google.com/view/jeppe-druedahl/" style="color: var(--scolor); font-weight: 600;">Jeppe Druedahl</a>',
-    SørenHoveRavn: '<a href="https://sites.google.com/site/sorenhoveravn/" style="color: var(--scolor); font-weight: 600;">Søren Hove Ravn</a>',
-    LauraSunderPlassmann: '<a href="https://sites.google.com/site/lsunderplassmann/" style="color: var(--scolor); font-weight: 600;">Laura Sunder-Plassmann</a>',
-    JacobMarottSundram: '<a href="https://www.sundram.dk/" style="color: var(--scolor); font-weight: 600;">Jacob Marott Sundram</a>',
-    ChristianKastrup: '<a href="https://sites.google.com/view/christianbkastrup" style="color: var(--scolor); font-weight: 600;">Christian B. Kastrup</a>'
-  };
-
-  for (const [className, linkHTML] of Object.entries(links)) {
-    document.querySelectorAll(`.${className}`).forEach(span => {
-      span.innerHTML = linkHTML;
-    });
-  }
-</script>
+<script src="/js/coauthors.js"></script>

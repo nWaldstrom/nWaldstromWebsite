@@ -24,6 +24,14 @@ sections:
     design:
       columns: '2'  # Change the number of columns if needed
 
+  - block: collection
+    id: publications
+    content:
+      title: Publications
+      subtitle: ''
+      text: '{{< publications_content >}}'
+    design:
+      columns: '2'  # Change the number of columns if needed
 
   - block: collection
     id: teaching
@@ -44,3 +52,5 @@ sections:
       columns: '2'
 
 ---
+
+<script src="/js/coauthors.js"></script>
