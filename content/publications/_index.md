@@ -29,9 +29,11 @@ design:
         <div class="publication-actions">
             <span class="finpup-status"> Forthcoming at IMF Economic Review </span>
             <br>
-            <a href="files/research/Fiscal_IHANK_August2024.pdf" class="pdflinktemp">Working Paper</a>
+            <a href="files/research/Fiscal_IHANK_March2025.pdf" class="pdflinktemp">Paper</a>
             <span class="vline">|</span>
             <a href="files/research/Fiscal_IHANK_IMFER.pdf" class="pdflinktemp">Slides</a>
+            <span class="vline">|</span>
+            <a href="https://github.com/nWaldstrom/IHANK_Fiscal" class="pdflinktemp">Code</a>
             <span class="vline">|</span>
             <button
                 onclick="let text = document.getElementById('text2'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">

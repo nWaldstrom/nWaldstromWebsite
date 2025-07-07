@@ -67,7 +67,7 @@ design:
             <span class="vline">|</span>
             <a href="files/research/Foreign_Demand_Shocks_October2022.pdf" class="pdflinktemp">Working Paper 2022</a>
             <span class="vline">|</span>
-            <a href="https://github.com/nWaldstrom/MultiSecSOEHANK" class="pdflinktemp">Code</a>
+            <a href="https://github.com/nWaldstrom/MultiSecSOEHANK" class="pdflinktemp">Code (2022 version)</a>
             <span class="vline">|</span>
             <button
                 onclick="let text = document.getElementById('text3'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
