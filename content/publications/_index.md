@@ -27,8 +27,10 @@ design:
             and <span class="JacobMarottSundram"></span>
         </div>
         <div class="publication-actions">
-            <span class="finpup-status"> Forthcoming at IMF Economic Review </span>
+            <span class="finpup-status"> IMF Economic Review (2025) </span>
             <br>
+            <a href="https://doi.org/10.1057/s41308-025-00281-2" class="pdflinktemp">Published Version</a>
+            <span class="vline">|</span>
             <a href="files/research/Fiscal_IHANK_March2025.pdf" class="pdflinktemp">Paper</a>
             <span class="vline">|</span>
             <a href="files/research/Fiscal_IHANK_IMFER.pdf" class="pdflinktemp">Slides</a>
