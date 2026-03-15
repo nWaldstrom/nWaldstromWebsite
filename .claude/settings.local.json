@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.tiagobernardino.com)",
+      "Bash(xargs:*)"
+    ]
+  }
+}

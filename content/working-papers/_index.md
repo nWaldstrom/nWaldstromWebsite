@@ -13,6 +13,78 @@ design:
 
 <div style="margin-top: 15px;"></div>
 
+
+<div class="publication-entry">
+    <div class="publication-date">February 2026</div>
+    <div class="publication-info">
+        <div class="publication-title">
+            Aggregate Demand Effects of Factor Income Redistribution
+        </div>
+        <div>
+            <a href="files/research/HANK_factor_income_Mar2026.pdf" class="pdflinktemp">Working Paper</a>
+            <span class="vline">|</span>
+            <button
+                onclick="let text = document.getElementById('text4'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
+                <i class="fas fa-caret-right"></i>Abstract
+            </button>
+        </div>
+        <div id="text4" style="display:none;" class="custom-abstr">
+            Abstract: I study how factor income redistribution shapes the aggregate demand effects of supply shocks in a heterogeneous agent New Keynesian (HANK) model with sticky wages. When prices rise — due to markup increases, higher imported input prices, or tariffs — nominal wage rigidity compresses real wages, redistributing income from workers to profit recipients or the government. When marginal propensities to consume are higher for labor income earners than for wealthy households receiving capital and business income, this redistribution is contractionary. I provide empirical support for this channel.
+        </div>
+    </div>
+</div>
+
+
+
+<div class="publication-entry">
+    <div class="publication-date">January 2026</div>
+    <div class="publication-info">
+        <div class="publication-title">
+            The Transmission of Foreign Demand Shocks
+        </div>
+        <div class="publication-details">
+            With
+            <span class="JeppeDruedahl"></span>,
+            <span class="SørenHoveRavn"></span>,
+            <span class="LauraSunderPlassmann"></span>,
+            and <span class="JacobMarottSundram"></span>
+        </div>
+        <div>
+            <span class="custom-status"> Resubmitted to the Journal of the European Economic Association</span>
+            <br> 
+            <a href="files/research/Foreign_Demand_Shocks_Jan2026.pdf" class="pdflinktemp">Working Paper</a>
+            <span class="vline">|</span>
+            <a href="files/research/Foreign_Demand_Shocks_October2022.pdf" class="pdflinktemp">Working Paper 2022</a>
+            <span class="vline">|</span>
+            <a href="https://github.com/nWaldstrom/MultiSecSOEHANK" class="pdflinktemp">Code (2022 version)</a>
+            <span class="vline">|</span>
+            <button
+                onclick="let text = document.getElementById('text3'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
+                <i class="fas fa-caret-right"></i>Abstract
+            </button>
+        </div>
+        <div id="text3" style="display:none;" class="custom-abstr">
+            Abstract: Introducing heterogeneous households into a New Keynesian model of a
+            small open economy enables the model to fit a set of stylized empirical facts
+            about the transmission of foreign demand shocks. In the absence of a strong
+            labor income effect on consumption, the model counterfactually implies that
+            domestic consumption decreases as the central bank raises the interest rate to
+            curb domestic inflation. With plausible marginal propensities to consume, the
+            model instead produces the observed increase in domestic consumption of both
+            tradeable and non-tradeable goods. This implies that foreign demand shocks are
+            more important for international business-cycle comovement than predicted by
+            existing models. Our findings also have implications for stabilization policies:
+            While monetary policy is well-suited to counteract foreign demand shocks, traditional
+            fiscal policies are inadequate, as they do not provide sufficient stimulus
+            to the tradeable sector. This poses a particular challenge for countries with a
+            fixed exchange rate or in a monetary union.
+        </div>
+    </div>
+</div>
+
+
+
+
 <div class="publication-entry">
     <div class="publication-date">December 2024</div>
     <div class="publication-info">
@@ -47,53 +119,6 @@ design:
 
 <div class="spacer"></div>
 
-<div class="publication-entry">
-    <div class="publication-date">September 2024</div>
-    <div class="publication-info">
-        <div class="publication-title">
-            The Transmission of Foreign Demand Shocks
-        </div>
-        <div class="publication-details">
-            With
-            <span class="JeppeDruedahl"></span>,
-            <span class="SørenHoveRavn"></span>,
-            <span class="LauraSunderPlassmann"></span>,
-            and <span class="JacobMarottSundram"></span>
-        </div>
-        <div>
-            <span class="custom-status"> R&R at Journal of the European Economic Association</span>
-            <br>
-            <a href="files/research/Foreign_Demand_Shocks_September2024.pdf" class="pdflinktemp">Working Paper</a>
-            <span class="vline">|</span>
-            <a href="files/research/Foreign_Demand_Shocks_October2022.pdf" class="pdflinktemp">Working Paper 2022</a>
-            <span class="vline">|</span>
-            <a href="https://github.com/nWaldstrom/MultiSecSOEHANK" class="pdflinktemp">Code (2022 version)</a>
-            <span class="vline">|</span>
-            <button
-                onclick="let text = document.getElementById('text3'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
-                <i class="fas fa-caret-right"></i>Abstract
-            </button>
-        </div>
-        <div id="text3" style="display:none;" class="custom-abstr">
-            Abstract: Introducing heterogeneous households into a New Keynesian model of a
-            small open economy enables the model to fit a set of stylized empirical facts
-            about the transmission of foreign demand shocks. In the absence of a strong
-            labor income effect on consumption, the model counterfactually implies that
-            domestic consumption decreases as the central bank raises the interest rate to
-            curb domestic inflation. With plausible marginal propensities to consume, the
-            model instead produces the observed increase in domestic consumption of both
-            tradeable and non-tradeable goods. This implies that foreign demand shocks are
-            more important for international business-cycle comovement than predicted by
-            existing models. Our findings also have implications for stabilization policies:
-            While monetary policy is well-suited to counteract foreign demand shocks, traditional
-            fiscal policies are inadequate, as they do not provide sufficient stimulus
-            to the tradeable sector. This poses a particular challenge for countries with a
-            fixed exchange rate or in a monetary union.
-        </div>
-    </div>
-</div>
-
-<div class="spacer"></div>
 
 <div class="publication-entry">
     <div class="publication-date">September 2024</div>

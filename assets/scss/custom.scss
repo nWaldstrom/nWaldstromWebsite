@@ -1,5 +1,5 @@
 p {
-    color: #4c4b4b;
+    color: #212121;
 }
 
 .footnotes {
@@ -28,9 +28,9 @@ p {
 
 
 .article-style a {
-    color: #5a464c;
+    color: #1C37AB;
     font-weight: normal;
-    
+
 }
 
 a.footnote-ref {
@@ -46,29 +46,29 @@ a.footnote-ref::after {
 }
 
 .article-title a {
-    color: #313131;
+    color: #1C37AB;
     font-weight: normal;
     transition: color 0.6s ease;
 }
 
 ::selection {
-    background: rgba(90, 70, 76, 0.15);
+    background: rgba(28, 55, 171, 0.12);
 }
 
 ::-moz-selection {
-    background: rgba(90, 70, 76, 0.15);
+    background: rgba(28, 55, 171, 0.12);
 }
 
 h1 {
     margin-top: 2rem;
     margin-bottom: 1.5rem;
-    font-weight: 500;
+    font-weight: 300;
 }
 
 h2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 h3 {
@@ -92,18 +92,18 @@ figure figcaption {
 }
 
 .navbar {
-    font-size: 19px;  /* Adjust size as needed */
+    font-size: 16px;  /* Adjust size as needed */
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
     border-bottom: 1px solid rgba(0, 0, 0, 0.09);
 }
 
 code {
-    background-color: #f3f6ee;
-    color: #5a464c;
+    background-color: #f0f4ff;
+    color: #1C37AB;
     word-wrap: break-word;
     border-radius: 0.25rem;
     font-size: 80%;
-    border: 1px solid #5a464c;
+    border: 1px solid #1C37AB;
     padding: 0.2rem;
 }
 
@@ -129,21 +129,21 @@ details p {
 
 .table th,
 .table td {
-    color: #4c4b4b;
+    color: #212121;
     border-top: 1px solid silver;
     border-bottom: 1px solid silver;
 }
 
 table>tbody {
-    color: #4c4b4b;
+    color: #212121;
 }
 
 .alert,
 .article-style aside,
 .alert-note {
-    color: rgb(90, 70, 76);
-    background-color: #f3f6ee;
-    border-color: #5a464c;
+    color: #1C37AB;
+    background-color: #f0f4ff;
+    border-color: #1C37AB;
 }
 
 .article-style aside p::before,
@@ -152,7 +152,7 @@ div.alert>div:first-child::before {
     top: -0.5rem;
     left: -2rem;
     font-size: 1.5rem;
-    color: #5a464c;
+    color: #1C37AB;
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     content: '\f05a';
@@ -211,8 +211,8 @@ body.dark,
 }
 
 .dark .btn-outline-primary {
-    color: #f3f6ee;
-    border-color: #f3f6ee;
+    color: #7b9af0;
+    border-color: #7b9af0;
 }
 
 .dark .form-control {
@@ -306,17 +306,17 @@ body.dark,
 }
 
 .dark .article-style a {
-    color: #f3f6ee;
+    color: #7b9af0;
     font-weight: normal;
-    border-bottom: 1px solid #f3f6ee;
+    border-bottom: 1px solid #7b9af0;
 }
 
 .dark ::selection {
-    background: rgba(243, 246, 238, 0.15);
+    background: rgba(123, 154, 240, 0.2);
 }
 
 .dark ::-moz-selection {
-    background: rgba(243, 246, 238, 0.15);
+    background: rgba(123, 154, 240, 0.2);
 }
 
 .dark a.footnote-ref {
@@ -340,8 +340,23 @@ body.dark,
 
 
 #about {
-  padding-top: 14vh;  /* 15% of viewport height */
-  padding-bottom: 16vh;
+  padding-top: 14vh;
+  padding-bottom: 1rem;
+}
+
+/* Tighten inter-section spacing to match Bernardino */
+.home-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* Section headings: blue and bold */
+.section-heading h1 {
+  color: #1C37AB;
+  font-weight: 700;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
 }
 
   /* General Styles */
@@ -355,7 +370,7 @@ body.dark,
       width: 150px;
       text-align: left;
       padding-right: 20px;
-      color: #003366; /* Or your preferred color */
+      color: #1C37AB;
       font-weight: bold;
       font-size: 14px; /* Consistent font size */
       flex-shrink: 0;
@@ -377,7 +392,7 @@ body.dark,
 
   .publication-details {
       font-size: 14px; /* Using pixels for better consistency */
-      color: #224771; /* Lighter Blue Color, or adapt */
+      color: #1C37AB;
   }
 
   /* Abstract Styles */
@@ -406,7 +421,7 @@ body.dark,
   /* Status & Date */
   .finpup-status {
       font-size: 14px;
-      color: #092d26;
+      color: #1C37AB;
       font-weight: 600;
   }
 
@@ -482,9 +497,9 @@ body.dark,
 
 
 :root {
-  --pcolor: #4682B4;
-  --scolor: #4682B4;
-  --tcolor: #FF8C00;
+  --pcolor: #1C37AB;
+  --scolor: #1C37AB;
+  --tcolor: #1C37AB;
 }
 
 
@@ -496,6 +511,11 @@ body.dark,
 }
 
 .avatar-square {
-  width: 14rem;
+  width: 19rem;
   height: 19rem;
+}
+
+/* Align avatar top with bio text */
+#about .row {
+  align-items: flex-start;
 }

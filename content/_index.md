@@ -33,23 +33,6 @@ sections:
     design:
       columns: '2'  # Change the number of columns if needed
 
-  - block: collection
-    id: teaching
-    content:
-      title: Teaching
-      subtitle: ''
-      text: '{{< teaching_content >}}'
-    design:
-      columns: '2'
-
-  - block: collection
-    id: codes
-    content:
-      title: Codes
-      subtitle: ''
-      text: '{{< codes_content >}}'
-    design:
-      columns: '2'
 
 ---
 

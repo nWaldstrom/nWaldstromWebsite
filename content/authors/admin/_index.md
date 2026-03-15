@@ -17,11 +17,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Visiting Postdoc 
+role: Senior Research Analyst
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: University of Zurich 
+  - name: DREAM
 
 # Short bio (displayed in user profile at end of posts)
 bio: Conducting research on het agent macroeconomics 
@@ -106,67 +106,27 @@ image:
 
 ---
 
-My name is Nicolai Waldstrøm. I am currently a visiting postdoc at the  
-<a href="https://www.econ.uzh.ch/en.html" style="text-decoration: none; color: var(--pcolor);">University of Zurich</a>.  
+Hi! My name is Nicolai Waldstrøm. I am currently a senior research analyst at the <a href="https://dreamgroup.dk/" style="text-decoration: none; color: var(--pcolor);">Danish Research Institute for Economic Analysis and Modelling (DREAM)</a>.
 
-I received my PhD from the University of Copenhagen in 2024. Prior to my doctoral studies, I completed a BSc and MSc degree at the same university and worked at the Danish Research Institute for Economic Analysis and Modelling and the Ministry of Finance.  
-My research interests lie in the field of Macroeconomics, with a particular focus on heterogeneous agent models and international macro.  
+I received my PhD from the University of Copenhagen in 2024. Prior to my doctoral studies, I completed a BSc and MSc degree at the same university and worked at the DREAM and the Ministry of Finance. After my doctoral studies I visited the <a href="https://www.econ.uzh.ch/en.html" style="text-decoration: none; color: var(--pcolor);">University of Zurich</a> as a postdoc.
 
-You may find my CV <a href="uploads/CV.pdf" style="text-decoration: none; color: var(--pcolor);" >here</a>.
-
-
-<!-- <div class="container">
-  <div class="row justify-content-between">
-    <div class="col">
-      <h3>Interests</h3>
-        <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-play"></i></span>Macroeconomics</li>
-        <li><span class="fa-li"><i class="fas fa-play"></i></span>Heterogeneous Agent Models</li>
-        <li><span class="fa-li"><i class="fas fa-play"></i></span>International Macro</li>
-        </ul>
-    </div>
-    <div class="col">
-      <h3>Education</h3>
-        <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Ph.D, 2021-2024</li>
-        <li><span class="portrait-title"><h3>University of Copenhagen</h3></span></li>
-        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MSc Economics, 2021</li>
-        <li><span class="portrait-title"><h3>University of Copenhagen</h3></li>
-        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BSc Economics, 2018</li>
-        <li><span class="portrait-title"><h3>University of Copenhagen</h3></li>
-        </ul>
-    </div>
+<div class="row" style="margin-top: 1.5rem; font-size: 0.92rem;">
+  <div class="col-md-5">
+    <h3 style="font-size: 0.95rem; font-weight: 600; margin-top: 0; margin-bottom: 0.6rem;">Research Interests</h3>
+    <ul style="list-style: disc; padding-left: 1.2rem; margin: 0; line-height: 1.7;">
+      <li>Macroeconomics</li>
+      <li>Heterogeneous Agent Models</li>
+      <li>International Macro</li>
+    </ul>
   </div>
-</div> -->
-
-
-<!--         <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MSc Economics, 2021</li>
-        <li><span class="portrait-title"><h3>University of Copenhagen</h3></li>
-        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BSc Economics, 2018</li>
-        <li><span class="portrait-title"><h3>University of Copenhagen</h3></li>
-
-<!-- <div class="container">
-  <div class="row justify-content-between">
-    <div class="col">
-      <h3>Experience</h3>
-        <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Global Earthquake Model, 2019-2023</li>
-        <li><span class="portrait-title"><h3>Pavia, Italy</h3></span></li>
-        <li><span class="fa-li"><i class="fas fa-briefcase"></i></span>Arup, Risk and Resilience, 2014-2019</li>
-        <li><span class="portrait-title"><h3>San Francisco, CA, USA</h3></li>
-        </ul>
-    </div>
-    <div class="col">
-      <h3>Education</h3>
-        <ul class="fa-ul">
-        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>MSc Structural Engineering, 2015</li>
-        <li><span class="portrait-title"><h3>Stanford University</h3></li>
-        <li><span class="fa-li"><i class="fas fa-graduation-cap"></i></span>BSc Civil Engineering, 2013</li>
-        <li><span class="portrait-title"><h3>University of California, Berkeley</h3></li>
-        </ul>
-    </div>
+  <div class="col-md-7">
+    <h3 style="font-size: 0.95rem; font-weight: 600; margin-top: 0; margin-bottom: 0.6rem;">Education</h3>
+    <ul style="list-style: none; padding: 0; margin: 0; line-height: 1.7;">
+      <li><i class="fas fa-graduation-cap" style="color: var(--pcolor); margin-right: 0.4rem;"></i><strong>PhD, Economics</strong>, 2024 &mdash; University of Copenhagen</li>
+      <li><i class="fas fa-graduation-cap" style="color: var(--pcolor); margin-right: 0.4rem;"></i><strong>MSc, Economics</strong>, 2021 &mdash; University of Copenhagen</li>
+      <li><i class="fas fa-graduation-cap" style="color: var(--pcolor); margin-right: 0.4rem;"></i><strong>BSc, Economics</strong>, 2018 &mdash; University of Copenhagen</li>
+    </ul>
   </div>
-</div> -->
+</div>
 
 
-{style="text-align: justify;"}
