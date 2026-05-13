@@ -15,13 +15,13 @@ design:
 
 
 <div class="publication-entry">
-    <div class="publication-date">February 2026</div>
+    <div class="publication-date">May 2026</div>
     <div class="publication-info">
         <div class="publication-title">
-            Aggregate Demand Effects of Factor Income Redistribution
+            Aggregate Demand and the Cyclical Distribution of Income
         </div>
         <div>
-            <a href="files/research/HANK_factor_income_Mar2026.pdf" class="pdflinktemp">Working Paper</a>
+            <a href="files/research/HANK_factor_income_May2026.pdf" class="pdflinktemp">Working Paper</a>
             <span class="vline">|</span>
             <button
                 onclick="let text = document.getElementById('text4'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
@@ -29,7 +29,7 @@ design:
             </button>
         </div>
         <div id="text4" style="display:none;" class="custom-abstr">
-            Abstract: I study how factor income redistribution shapes the aggregate demand effects of supply shocks in a heterogeneous agent New Keynesian (HANK) model with sticky wages. When prices rise — due to markup increases, higher imported input prices, or tariffs — nominal wage rigidity compresses real wages, redistributing income from workers to profit recipients or the government. When marginal propensities to consume are higher for labor income earners than for wealthy households receiving capital and business income, this redistribution is contractionary. I provide empirical support for this channel.
+            Abstract: I study the effects of cost-push shocks on aggregate demand in a heterogeneous agent New Keynesian model with sticky prices and wages. Using a sequence-space approach, I show that factor income redistribution via variable markups makes supply-side inflation contractionary even under a neutral monetary policy rule. When prices rise, real wages fall due to nominal rigidities, shifting income from workers to firm owners. This reduces aggregate demand whenever the marginal propensity to consume (MPC) out of labor income exceeds the MPC out of profits. The model provides a unified framework for the analysis of different cost-push shocks. I establish a link between markup and cost-push shocks governed by whether the economy is effectively a net importer or exporter of the affected input: shocks are most contractionary when payments flow abroad. Markup shocks are less contractionary because income remains domestic, though redistributed to low-MPC households. When intermediate inputs are entirely domestically owned, the shock is isomorphic to a markup shock. Tariff shocks lie in between, depending on how tariff revenue is spent.
         </div>
     </div>
 </div>
