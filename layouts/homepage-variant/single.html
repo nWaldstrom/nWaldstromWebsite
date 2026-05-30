@@ -4,6 +4,10 @@
     {{ $editorialPage := site.GetPage "layout-editorial" }}
     {{ $personalPage := site.GetPage "layout-personal" }}
     {{ $balancedPage := site.GetPage "layout-balanced" }}
+    {{ if not $professionalPage }}{{ errorf "homepage-variant chooser is missing expected page %q" "layout-professional" }}{{ end }}
+    {{ if not $editorialPage }}{{ errorf "homepage-variant chooser is missing expected page %q" "layout-editorial" }}{{ end }}
+    {{ if not $personalPage }}{{ errorf "homepage-variant chooser is missing expected page %q" "layout-personal" }}{{ end }}
+    {{ if not $balancedPage }}{{ errorf "homepage-variant chooser is missing expected page %q" "layout-balanced" }}{{ end }}
     {{ $chooserCards := slice
       (dict "page" $professionalPage "title" "Professional" "description" "A structured research-forward homepage preview.")
       (dict "page" $editorialPage "title" "Editorial" "description" "A more narrative and publication-led homepage preview.")
@@ -35,11 +39,10 @@
     </main>
   {{ else }}
     {{ $chooserPage := site.GetPage "layout-options" }}
+    {{ if not $chooserPage }}{{ errorf "homepage-variant %q is missing expected backlink page %q" .Params.variant "layout-options" }}{{ end }}
     <main class="homepage-variant homepage-variant--{{ .Params.variant }}">
       <div class="universal-wrapper">
-        {{ with $chooserPage }}
-          <p class="homepage-variant__backlink"><a href="{{ .RelPermalink }}">Back to layout chooser</a></p>
-        {{ end }}
+        <p class="homepage-variant__backlink"><a href="{{ $chooserPage.RelPermalink }}">Back to layout chooser</a></p>
       </div>
       {{ partial "homepage-variants/hero.html" . }}
 
