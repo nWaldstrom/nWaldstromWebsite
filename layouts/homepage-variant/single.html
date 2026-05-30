@@ -1,0 +1,56 @@
+{{ define "main" }}
+  {{ if eq .Params.variant "chooser" }}
+    <main class="homepage-variant homepage-variant--chooser">
+      <div class="homepage-variant__chooser">
+        <header class="homepage-variant__chooser-header">
+          <p class="homepage-variant__eyebrow">Homepage previews</p>
+          <h1>{{ .Title }}</h1>
+          <div class="homepage-variant__chooser-body article-style">
+            {{ .Content }}
+          </div>
+        </header>
+
+        <div class="homepage-variant__chooser-grid">
+          {{ partial "homepage-variants/chooser-card.html" (dict
+            "url" "/layout-professional/"
+            "title" "Professional"
+            "description" "A structured research-forward homepage preview.") }}
+          {{ partial "homepage-variants/chooser-card.html" (dict
+            "url" "/layout-editorial/"
+            "title" "Editorial"
+            "description" "A more narrative and publication-led homepage preview.") }}
+          {{ partial "homepage-variants/chooser-card.html" (dict
+            "url" "/layout-personal/"
+            "title" "Personal"
+            "description" "A warmer biography-first homepage preview.") }}
+          {{ partial "homepage-variants/chooser-card.html" (dict
+            "url" "/layout-balanced/"
+            "title" "Balanced"
+            "description" "A blended homepage preview across bio and research.") }}
+        </div>
+      </div>
+    </main>
+  {{ else }}
+    <main class="homepage-variant homepage-variant--{{ .Params.variant }}">
+      {{ partial "homepage-variants/hero.html" . }}
+
+      <div class="homepage-variant__sections">
+        {{ partial "homepage-variants/research-section.html" (dict
+          "page" .
+          "section" "publications"
+          "title" "Publications"
+          "section_class" "publications") }}
+        {{ partial "homepage-variants/research-section.html" (dict
+          "page" .
+          "section" "working-papers"
+          "title" "Working Papers"
+          "section_class" "working-papers") }}
+        {{ partial "homepage-variants/research-section.html" (dict
+          "page" .
+          "section" "workinprogress"
+          "title" "Work in Progress"
+          "section_class" "workinprogress") }}
+      </div>
+    </main>
+  {{ end }}
+{{ end }}

@@ -1,0 +1,30 @@
+{{ with site.GetPage "authors/admin" }}
+  {{ $avatar := .Resources.GetMatch "avatar*" }}
+  {{ $organizations := .Params.organizations | default slice }}
+  {{ $organization := "" }}
+  {{ with index $organizations 0 }}
+    {{ $organization = .name | default "" }}
+  {{ end }}
+
+  <section class="homepage-variant__hero">
+    <div class="homepage-variant__hero-copy">
+      <p class="homepage-variant__eyebrow">
+        {{ .Params.role }}{{ with $organization }} · {{ . }}{{ end }}
+      </p>
+      <h1>{{ .Title }}</h1>
+      <div class="homepage-variant__bio article-style">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ with $avatar }}
+      <div class="homepage-variant__hero-media">
+        <img
+          class="homepage-variant__avatar"
+          src="{{ .RelPermalink }}"
+          alt="{{ $.Title }}"
+          loading="eager">
+      </div>
+    {{ end }}
+  </section>
+{{ end }}
