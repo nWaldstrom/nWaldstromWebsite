@@ -6,4 +6,4 @@ url: "/layout-options/"
 variant: "chooser"
 ---
 
-Browse the homepage redesign options below and compare them in the local Hugo server.
+Browse the homepage redesign options below and compare them in the local Hugo server. Each preview keeps the current content but changes structure and emphasis.

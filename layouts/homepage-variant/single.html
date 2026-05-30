@@ -35,6 +35,9 @@
     </main>
   {{ else }}
     <main class="homepage-variant homepage-variant--{{ .Params.variant }}">
+      <div class="universal-wrapper">
+        <p class="homepage-variant__backlink"><a href="/layout-options/">Back to layout chooser</a></p>
+      </div>
       {{ partial "homepage-variants/hero.html" . }}
 
       <div class="homepage-variant__sections">
