@@ -1,5 +1,9 @@
 {{ define "main" }}
   {{ if eq .Params.variant "chooser" }}
+    {{ $professionalPage := site.GetPage "layout-professional" }}
+    {{ $editorialPage := site.GetPage "layout-editorial" }}
+    {{ $personalPage := site.GetPage "layout-personal" }}
+    {{ $balancedPage := site.GetPage "layout-balanced" }}
     <main class="homepage-variant homepage-variant--chooser">
       <div class="homepage-variant__chooser">
         <header class="homepage-variant__chooser-header">
@@ -12,19 +16,19 @@
 
         <div class="homepage-variant__chooser-grid">
           {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" "/layout-professional/"
+            "url" $professionalPage.RelPermalink
             "title" "Professional"
             "description" "A structured research-forward homepage preview.") }}
           {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" "/layout-editorial/"
+            "url" $editorialPage.RelPermalink
             "title" "Editorial"
             "description" "A more narrative and publication-led homepage preview.") }}
           {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" "/layout-personal/"
+            "url" $personalPage.RelPermalink
             "title" "Personal"
             "description" "A warmer biography-first homepage preview.") }}
           {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" "/layout-balanced/"
+            "url" $balancedPage.RelPermalink
             "title" "Balanced"
             "description" "A blended homepage preview across bio and research.") }}
         </div>

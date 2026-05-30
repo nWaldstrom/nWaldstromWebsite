@@ -1,9 +1,12 @@
 {{ with site.GetPage "authors/admin" }}
   {{ $avatar := .Resources.GetMatch "avatar*" }}
   {{ $organizations := .Params.organizations | default slice }}
+  {{ $authorTitle := .Title }}
   {{ $organization := "" }}
-  {{ with index $organizations 0 }}
-    {{ $organization = .name | default "" }}
+  {{ with $organizations }}
+    {{ with index . 0 }}
+      {{ $organization = .name | default "" }}
+    {{ end }}
   {{ end }}
 
   <section class="homepage-variant__hero">
@@ -22,7 +25,7 @@
         <img
           class="homepage-variant__avatar"
           src="{{ .RelPermalink }}"
-          alt="{{ $.Title }}"
+          alt="{{ $authorTitle }}"
           loading="eager">
       </div>
     {{ end }}
