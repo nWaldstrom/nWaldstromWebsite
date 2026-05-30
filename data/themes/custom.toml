@@ -15,21 +15,21 @@ name = "custom"
 
 [light]
   # Primary
-  primary = "#1C37AB"
+  primary = "#3387A2"
 
   # Links
-  link = "#1C37AB"
-  link_hover = "#162289"
+  link = "#C97A1B"
+  link_hover = "#A86412"
 
   # Menu
-  menu_primary = "#fefefe"
-  menu_text = "#212121"
-  menu_text_active = "#212121"
-  menu_title = "#1C37AB"
+  menu_primary = "#FFFFFF"
+  menu_text = "#2A2A2A"
+  menu_text_active = "#2A2A2A"
+  menu_title = "#2A2A2A"
 
   # Home sections
-  home_section_odd = "#ffffff"
-  home_section_even = "#ffffff"
+  home_section_odd = "#FFFFFF"
+  home_section_even = "#FFFFFF"
 
 
 [dark]

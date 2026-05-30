@@ -6,12 +6,6 @@
       <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <description>Nicolai Waldstrøm</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language>
-    <image>
-      <url>http://localhost:1313/media/icon_hu209de9eb93bbf92fdbefdbfdebe32890_3589_512x512_fill_lanczos_center_3.png</url>
-      <title>Nicolai Waldstrøm</title>
-      <link>http://localhost:1313/</link>
-    </image>
-    
     <item>
       <title></title>
       <link>http://localhost:1313/_index_backup/</link>

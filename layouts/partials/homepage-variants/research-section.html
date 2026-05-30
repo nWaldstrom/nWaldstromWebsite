@@ -1,7 +1,9 @@
 {{ with site.GetPage .section }}
   <section class="homepage-variant__section homepage-variant__section--{{ $.section_class }}">
     <header class="homepage-variant__section-header">
-      <p class="homepage-variant__kicker">{{ $.page.Title }}</p>
+      {{ with $.kicker }}
+        <p class="homepage-variant__kicker">{{ . }}</p>
+      {{ end }}
       <h2>{{ $.title }}</h2>
     </header>
 

@@ -1,39 +1,7 @@
 ---
-# Leave the homepage title empty to use the site title
-title: ''
+title: ""
 date: null
-type: landing
-
-
-sections:
-  ############################
-  - block: about.biography
-    id: about
-    content:
-      title: <span style="color:var(--pcolor); font-size:2rem;">About Me</span>
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
-
-
-  - block: collection
-    id: working-papers
-    content:
-      title: Working Papers 
-      subtitle: ''
-      text: '{{< workingpapers_content >}}'
-    design:
-      columns: '2'  # Change the number of columns if needed
-
-  - block: collection
-    id: publications
-    content:
-      title: Publications
-      subtitle: ''
-      text: '{{< publications_content >}}'
-    design:
-      columns: '2'  # Change the number of columns if needed
-
-
+type: "homepage-variant"
+layout: "single"
+variant: "professional"
 ---
-
-<script src="/js/coauthors.js"></script>

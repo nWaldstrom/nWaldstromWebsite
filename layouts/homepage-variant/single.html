@@ -41,24 +41,23 @@
     {{ $chooserPage := site.GetPage "layout-options" }}
     {{ if not $chooserPage }}{{ errorf "homepage-variant %q is missing expected backlink page %q" .Params.variant "layout-options" }}{{ end }}
     <main class="homepage-variant homepage-variant--{{ .Params.variant }}">
-      <div class="universal-wrapper">
-        <p class="homepage-variant__backlink"><a href="{{ $chooserPage.RelPermalink }}">Back to layout chooser</a></p>
-      </div>
+      {{ if not .IsHome }}
+        <div class="universal-wrapper">
+          <p class="homepage-variant__backlink"><a href="{{ $chooserPage.RelPermalink }}">Back to layout chooser</a></p>
+        </div>
+      {{ end }}
       {{ partial "homepage-variants/hero.html" . }}
 
       <div class="homepage-variant__sections">
         {{ partial "homepage-variants/research-section.html" (dict
-          "page" .
           "section" "publications"
           "title" "Publications"
           "section_class" "publications") }}
         {{ partial "homepage-variants/research-section.html" (dict
-          "page" .
           "section" "working-papers"
           "title" "Working Papers"
           "section_class" "working-papers") }}
         {{ partial "homepage-variants/research-section.html" (dict
-          "page" .
           "section" "workinprogress"
           "title" "Work in Progress"
           "section_class" "workinprogress") }}

@@ -21,6 +21,8 @@ design:
             Aggregate Demand and the Cyclical Distribution of Income
         </div>
         <div>
+            <span class="custom-status">Submitted</span>
+            <br>
             <a href="files/research/HANK_factor_income_May2026.pdf" class="pdflinktemp">Working Paper</a>
             <span class="vline">|</span>
             <button
@@ -50,7 +52,7 @@ design:
             and <span class="JacobMarottSundram"></span>
         </div>
         <div>
-            <span class="custom-status"> Resubmitted to the Journal of the European Economic Association</span>
+            <span class="custom-status">Conditionally accepted at the Journal of the European Economic Association</span>
             <br> 
             <a href="files/research/Foreign_Demand_Shocks_Jan2026.pdf" class="pdflinktemp">Working Paper</a>
             <span class="vline">|</span>
@@ -135,11 +137,11 @@ design:
             <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4746090" class="pdflinktemp">SSRN</a>
             <span class="vline">|</span>
             <button
-                onclick="let text = document.getElementById('text4'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
+                onclick="let text = document.getElementById('abstract-micro-to-macro'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
                 <i class="fas fa-caret-right"></i>Abstract
             </button>
         </div>
-        <div id="text4" style="display:none;" class="custom-abstr">
+        <div id="abstract-micro-to-macro" style="display:none;" class="custom-abstr">
             Abstract: We investigate the role of firm heterogeneity and adjustment costs in the transmission
             of foreign supply shocks. Our starting point comes from a theoretical
             insight: If larger firms rely more on easily adjustable inputs, such as materials,

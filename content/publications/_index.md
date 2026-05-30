@@ -33,7 +33,7 @@ design:
             <span class="vline">|</span>
             <a href="files/research/Fiscal_IHANK_March2025.pdf" class="pdflinktemp">Paper</a>
             <span class="vline">|</span>
-            <a href="files/research/Fiscal_IHANK_IMFER.pdf" class="pdflinktemp">Slides</a>
+            <a href="files/research/Fiscal_IHANK_DREAM.pdf" class="pdflinktemp">Slides</a>
             <span class="vline">|</span>
             <a href="https://github.com/nWaldstrom/IHANK_Fiscal" class="pdflinktemp">Code</a>
             <span class="vline">|</span>
