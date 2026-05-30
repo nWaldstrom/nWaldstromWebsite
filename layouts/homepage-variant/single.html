@@ -34,9 +34,12 @@
       </div>
     </main>
   {{ else }}
+    {{ $chooserPage := site.GetPage "layout-options" }}
     <main class="homepage-variant homepage-variant--{{ .Params.variant }}">
       <div class="universal-wrapper">
-        <p class="homepage-variant__backlink"><a href="/layout-options/">Back to layout chooser</a></p>
+        {{ with $chooserPage }}
+          <p class="homepage-variant__backlink"><a href="{{ .RelPermalink }}">Back to layout chooser</a></p>
+        {{ end }}
       </div>
       {{ partial "homepage-variants/hero.html" . }}
 
