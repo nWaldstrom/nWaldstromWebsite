@@ -4,6 +4,12 @@
     {{ $editorialPage := site.GetPage "layout-editorial" }}
     {{ $personalPage := site.GetPage "layout-personal" }}
     {{ $balancedPage := site.GetPage "layout-balanced" }}
+    {{ $chooserCards := slice
+      (dict "page" $professionalPage "title" "Professional" "description" "A structured research-forward homepage preview.")
+      (dict "page" $editorialPage "title" "Editorial" "description" "A more narrative and publication-led homepage preview.")
+      (dict "page" $personalPage "title" "Personal" "description" "A warmer biography-first homepage preview.")
+      (dict "page" $balancedPage "title" "Balanced" "description" "A blended homepage preview across bio and research.")
+    }}
     <main class="homepage-variant homepage-variant--chooser">
       <div class="homepage-variant__chooser">
         <header class="homepage-variant__chooser-header">
@@ -15,22 +21,15 @@
         </header>
 
         <div class="homepage-variant__chooser-grid">
-          {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" $professionalPage.RelPermalink
-            "title" "Professional"
-            "description" "A structured research-forward homepage preview.") }}
-          {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" $editorialPage.RelPermalink
-            "title" "Editorial"
-            "description" "A more narrative and publication-led homepage preview.") }}
-          {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" $personalPage.RelPermalink
-            "title" "Personal"
-            "description" "A warmer biography-first homepage preview.") }}
-          {{ partial "homepage-variants/chooser-card.html" (dict
-            "url" $balancedPage.RelPermalink
-            "title" "Balanced"
-            "description" "A blended homepage preview across bio and research.") }}
+          {{ range $chooserCards }}
+            {{ $card := . }}
+            {{ with $card.page }}
+              {{ partial "homepage-variants/chooser-card.html" (dict
+                "url" .RelPermalink
+                "title" $card.title
+                "description" $card.description) }}
+            {{ end }}
+          {{ end }}
         </div>
       </div>
     </main>
