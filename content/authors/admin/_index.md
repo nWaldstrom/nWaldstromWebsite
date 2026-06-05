@@ -110,6 +110,9 @@ Hi! My name is Nicolai Waldstrøm. I am currently a senior research analyst at t
 
 I received my PhD from the University of Copenhagen in 2024. Prior to my doctoral studies, I completed a BSc and MSc degree at the same university and worked at DREAM and the Ministry of Finance. After my doctoral studies, I visited the <a href="https://www.econ.uzh.ch/en.html" style="text-decoration: none; color: var(--pcolor);">University of Zurich</a> as a postdoc.
 
+Mail: <span style="color: var(--pcolor);">N.Waldstrom [at] gmail [dot] com</span>
+
+
 <div class="row" style="margin-top: 1.5rem; font-size: 0.92rem;">
   <div class="col-md-5">
     <h3 style="font-size: 0.95rem; font-weight: 600; margin-top: 0; margin-bottom: 0.6rem;">Research Interests</h3>
