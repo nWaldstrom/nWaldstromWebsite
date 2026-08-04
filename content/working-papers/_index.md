@@ -21,7 +21,7 @@ design:
             Aggregate Demand and the Cyclical Distribution of Income
         </div>
         <div>
-            <span class="custom-status">Under review</span>
+            <span class="custom-status">R&R at Journal of Economic Dynamics and Control</span>
             <br>
             <a href="files/research/HANK_factor_income_May2026.pdf" class="pdflinktemp">Working Paper</a>
             <span class="vline">|</span>
