@@ -15,7 +15,7 @@ design:
 
 
 <div class="publication-entry">
-    <div class="publication-date">May 2026</div>
+    <div class="publication-date">November 2026</div>
     <div class="publication-info">
         <div class="publication-title">
             Aggregate Demand and the Cyclical Distribution of Income
@@ -23,7 +23,7 @@ design:
         <div>
             <span class="custom-status">R&R at Journal of Economic Dynamics and Control</span>
             <br>
-            <a href="files/research/HANK_factor_income_May2026.pdf" class="pdflinktemp">Working Paper</a>
+            <a href="files/research/HANK_Redist_nov2026.pdf" class="pdflinktemp">Working Paper</a>
             <span class="vline">|</span>
             <button
                 onclick="let text = document.getElementById('text4'); text.style.display = text.style.display === 'none' ? 'block' : 'none';">
@@ -31,7 +31,7 @@ design:
             </button>
         </div>
         <div id="text4" style="display:none;" class="custom-abstr">
-            Abstract: I study the effects of cost-push shocks on aggregate demand in a heterogeneous agent New Keynesian model with sticky prices and wages. Using a sequence-space approach, I show that factor income redistribution via variable markups makes supply-side inflation contractionary even under a neutral monetary policy rule. When prices rise, real wages fall due to nominal rigidities, shifting income from workers to firm owners. This reduces aggregate demand whenever the marginal propensity to consume (MPC) out of labor income exceeds the MPC out of profits. The model provides a unified framework for the analysis of different cost-push shocks. I establish a link between markup and cost-push shocks governed by whether the economy is effectively a net importer or exporter of the affected input: shocks are most contractionary when payments flow abroad. Markup shocks are less contractionary because income remains domestic, though redistributed to low-MPC households. When intermediate inputs are entirely domestically owned, the shock is isomorphic to a markup shock. Tariff shocks lie in between, depending on how tariff revenue is spent.
+            Abstract: I study how supply and demand shocks affect aggregate demand through the distribution of labor income and profits in a small open economy with heterogeneous households and sticky prices and wages. I show that a markup shock, which is neutral in a representative-agent model at a constant real interest rate, becomes contractionary when workers have higher marginal propensities to consume (MPCs) than firm owners. Price and wage rigidities determine the redistribution of income through markups, while differences in MPCs out of labor income and profits determine its effect on aggregate demand. This mechanism is also important for the transmission of other supply shocks, such as import price shocks, but plays a smaller role for demand shocks. The reason is that demand shocks primarily operate through the wage Phillips curve, whereas supply shocks operate through the price Phillips curve, which is typically steeper.
         </div>
     </div>
 </div>
